@@ -1,0 +1,10 @@
+/** WRITE YOUR TIPS IN THIS FILE **/
+1. The two anytime search are really similiar to each other. The only difference is the different cost bounds to use for each iterations.
+
+2. One of the most important issues regarding the Sokoban are the deadlocks in the map. Keep in mind that deadlocks also exists in places other than the corners.
+
+3. To make the heur_alternative run faster, not only do you need to consider the distance of the boxs to storages to put into, but also the distance between the robots and the boxes.
+
+4. Remember that heuristic is an estimate, not the actual cost to the storage. Actually implement the cost actually cost as the hueristic will cost an extremely long time.
+
+5. It would greatly increase the speed for the search if you could design an algorithm that match each box to a specific storage.
